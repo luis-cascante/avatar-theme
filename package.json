@@ -1,21 +1,21 @@
 {
-    "name": "avatar",
-    "displayName": "Avatar",
-    "description": "Avatar: The Last Airbender based theme.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.42.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Avatar Theme",
-                "uiTheme": "vs",
-                "path": "./themes/Avatar Theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "avatar",
+  "displayName": "Benders Theme",
+  "description": "Color theme based on a combination of the factions of my favorite TV show ever.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.42.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Avatar Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Avatar Theme-color-theme.json"
+      }
+    ]
+  }
 }
