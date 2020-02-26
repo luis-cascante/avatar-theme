@@ -1,7 +1,12 @@
 {
-  "name": "avatar",
+  "name": "benders",
   "displayName": "Benders Theme",
   "description": "Color theme based on a combination of the factions of my favorite TV show ever.",
+  "publisher": "luis-cascante",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luis-whitelotus/avatar-theme"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.42.0"
