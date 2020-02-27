@@ -2,19 +2,16 @@
   "name": "Avatar Theme",
   "type": "light",
   "colors": {
-    "editor.background": "#FFFAFA",
-    "editor.foreground": "#333",
+    "editor.background": "#333",
+    "editor.foreground": "#FFFAFA",
     "statusBar.background": "#015c82",
-    "sideBar.background": "#fff",
+    "sideBar.background": "#676767",
     "activityBar.background": "#4e3994"
   },
   "tokenColors": [
     {
       "name": "Comments",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#676767"
@@ -30,10 +27,7 @@
     },
     {
       "name": "Comments: Documentation",
-      "scope": [
-        "comment.documentation",
-        "comment.block.documentation"
-      ],
+      "scope": ["comment.documentation", "comment.block.documentation"],
       "settings": {
         "foreground": "#488231"
       }
@@ -54,54 +48,38 @@
     },
     {
       "name": "Keywords",
-      "scope": [
-        "keyword",
-        "storage"
-      ],
+      "scope": ["keyword", "storage"],
       "settings": {
         "foreground": "#b96014"
       }
     },
     {
       "name": "Types",
-      "scope": [
-        "storage.type",
-        "support.type"
-      ],
+      "scope": ["storage.type", "support.type"],
       "settings": {
         "foreground": "#6248b8"
       }
     },
     {
       "name": "Language Constants",
-      "scope": [
-        "constant.language",
-        "support.constant",
-        "variable.language"
-      ],
+      "scope": ["constant.language", "support.constant", "variable.language"],
       "settings": {
-        "foreground": "#cc012b"
+        "foreground": "#ff0000"
       }
     },
     {
       "name": "Variables",
-      "scope": [
-        "variable",
-        "support.variable"
-      ],
+      "scope": ["variable", "support.variable"],
       "settings": {
-        "foreground": "#0173a3"
+        "foreground": "#0190cc"
       }
     },
     {
       "name": "Functions",
-      "scope": [
-        "entity.name.function",
-        "support.function"
-      ],
+      "scope": ["entity.name.function", "support.function"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#e95d20" // Review color contrast later
+        "foreground": "#ff5307"
       }
     },
     {
@@ -132,11 +110,7 @@
     },
     {
       "name": "Numbers, Characters",
-      "scope": [
-        "constant.numeric",
-        "constant.character",
-        "constant"
-      ],
+      "scope": ["constant.numeric", "constant.character", "constant"],
       "settings": {
         "foreground": "#AB6526"
       }
@@ -220,10 +194,7 @@
     },
     {
       "name": "HTML: Entities",
-      "scope": [
-        "constant.character.entity",
-        "punctuation.definition.entity"
-      ],
+      "scope": ["constant.character.entity", "punctuation.definition.entity"],
       "settings": {
         "foreground": "#AB6526"
       }
@@ -254,20 +225,14 @@
     },
     {
       "name": "CSS: Property Names",
-      "scope": [
-        "meta.property-name",
-        "support.type.property-name"
-      ],
+      "scope": ["meta.property-name", "support.type.property-name"],
       "settings": {
         "foreground": "#0173a3"
       }
     },
     {
       "name": "SASS: Property Names",
-      "scope": [
-        "meta.property-name",
-        "support.type.property-name"
-      ],
+      "scope": ["meta.property-name", "support.type.property-name"],
       "settings": {
         "foreground": "#0173a3"
       }
@@ -352,10 +317,7 @@
     },
     {
       "name": "Markup: Output",
-      "scope": [
-        "markup.output",
-        "markup.raw"
-      ],
+      "scope": ["markup.output", "markup.raw"],
       "settings": {
         "foreground": "#777777"
       }
@@ -411,10 +373,7 @@
     },
     {
       "name": "Markup Styling",
-      "scope": [
-        "markup.bold",
-        "markup.italic"
-      ],
+      "scope": ["markup.bold", "markup.italic"],
       "settings": {
         "foreground": "#448C27"
       }
@@ -429,11 +388,7 @@
     },
     {
       "name": "Extra: Diff Range",
-      "scope": [
-        "meta.diff.range",
-        "meta.diff.index",
-        "meta.separator"
-      ],
+      "scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
       "settings": {
         "foreground": "#434343"
       }

@@ -17,9 +17,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Avatar Theme",
+        "label": "Avatar Theme Light",
         "uiTheme": "vs",
-        "path": "./themes/Avatar Theme-color-theme.json"
+        "path": "./themes/Avatar Theme-light-theme.json"
+      },
+      {
+        "label": "Avatar Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Avatar Theme-Dark-theme.json"
       }
     ]
   }
