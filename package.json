@@ -17,12 +17,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Avatar Theme Light",
+        "label": "Bender's Theme Light",
         "uiTheme": "vs",
         "path": "./themes/Avatar Theme-light-theme.json"
       },
       {
-        "label": "Avatar Theme Dark",
+        "label": "Bender's Theme Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Avatar Theme-Dark-theme.json"
       }
