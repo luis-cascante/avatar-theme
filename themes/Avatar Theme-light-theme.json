@@ -218,7 +218,8 @@
         "meta.selector",
         "meta.selector entity",
         "meta.selector entity punctuation",
-        "entity.name.tag.sass"
+        "entity.name.tag.sass",
+        "entity.other.attribute-name.class.css"
       ],
       "settings": {
         "foreground": "#e95d20"
