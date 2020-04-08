@@ -19,12 +19,12 @@
       {
         "label": "Bender's Theme Light",
         "uiTheme": "vs",
-        "path": "./themes/Avatar Theme-light-theme.json"
+        "path": "./themes/Avatar-Theme-light-theme.json"
       },
       {
         "label": "Bender's Theme Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Avatar Theme-Dark-theme.json"
+        "path": "./themes/Avatar-Theme-Dark-theme.json"
       }
     ]
   }
