@@ -24,7 +24,7 @@
       {
         "label": "Bender's Theme Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Avatar-Theme-Dark-theme.json"
+        "path": "./themes/Avatar-Theme-dark-theme.json"
       }
     ]
   }
